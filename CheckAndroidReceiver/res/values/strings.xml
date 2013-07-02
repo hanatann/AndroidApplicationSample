@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckAndroidReceiver</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">ブロードキャストレシーバのテスト</string>
+    <string name="hello_world2">本アプリがインストールされていると、AndroidOS側からブロードキャストされるインテントを受信し、トーストで通知します。</string>
+    <string name="hello_world3">ブロードキャストの契機確認が本アプリの目的です。</string>
+
+</resources>
