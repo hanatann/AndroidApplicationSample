@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#fff"
+>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+		>
+			<TextView
+				android:text="Line1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<Spinner
+				android:id="@+id/xfermode_1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+		>
+			<TextView
+				android:text="Line2"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<Spinner
+				android:id="@+id/xfermode_2"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/image"
+		android:background="@drawable/ic_launcher"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+</LinearLayout>
